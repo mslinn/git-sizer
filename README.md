@@ -71,12 +71,18 @@ Is your Git repository bursting at the seams?
 
 2.  Install `git-sizer`. Either:
 
-    a. Install a released version of `git-sizer`(recommended):
+    a. Install a released version of `git-sizer`from a package manager(recommended):
+       1. For Ubuntu and other Debian Linux distibutions:
+          ```shell
+          $ sudo apt install git-sizer
+          ```
+    
+    b. Install a released version from GitHub:
        1. Go to [the releases page](https://github.com/github/git-sizer/releases) and download the ZIP file corresponding to your platform.
        2. Unzip the file.
        3. Move the executable file (`git-sizer` or `git-sizer.exe`) into your `PATH`.
 
-    b. Build and install from source. See the instructions in [`docs/BUILDING.md`](docs/BUILDING.md).
+    c. Build and install from source. See the instructions in [`docs/BUILDING.md`](docs/BUILDING.md).
 
 3.  Change to the directory containing a full, non-shallow clone of the Git repository that you'd like to analyze. Then run
 
